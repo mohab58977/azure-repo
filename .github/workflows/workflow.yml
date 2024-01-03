@@ -12,7 +12,7 @@ jobs:
     env:
       ARM_CLIENT_ID: ${{ secrets.APPID }}
       ARM_CLIENT_SECRET: ${{ secrets.PASSWORD }}
-      ARM_SUBSCRIPTION_ID: ${{ secrets.SUBSCRIBTIONID }}
+      ARM_SUBSCRIPTION_ID: ${{ secrets.SUBSCRIPTIONID }}
       ARM_TENANT_ID: ${{ secrets.TENANT }}
 
     runs-on: ubuntu-latest
